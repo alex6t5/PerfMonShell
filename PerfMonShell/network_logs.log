@@ -1,0 +1,23 @@
+--------------------------------------
+Network Information Log: 2024-04-05 06:43:26
+--------------------------------------
+Interface: eth0
+IPv4: 10.0.2.15
+IPv6: fe80::a00:27ff:fe68:6825
+--------------------------------------
+Network In: 0 KB/s
+Network Out: 0 KB/s
+
+Network Interface Statistics:
+eth0:
+Received: 5454329
+Transmitted: 15832157
+
+lo:
+Received: 240
+Transmitted: 240
+
+
+Current Network Connections:
+Netid State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+--------------------------------------

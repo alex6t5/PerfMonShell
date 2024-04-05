@@ -47,6 +47,7 @@ can resume the automatic refresh.
 • Quitting: The user has the option to exit the monitoring script.
 
 Behind the Scenes:
+
 System Information Display: Utilizes functions like display_cpu_info,
 display_memory_usage, get_network_traffic, get_network_info, and get_disk_usage to
 gather and display relevant system metrics.

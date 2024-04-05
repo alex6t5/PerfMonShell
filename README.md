@@ -74,4 +74,3 @@ additional options.
 choices, continue with real-time monitoring, or exit.
 
 
-![Showcase_1](https://github.com/alex6t5/PerfMonShell/assets/120783955/dd0d9ec6-bdd2-4db7-90b6-6e0966078f0d)

@@ -23,7 +23,8 @@ How does the script work:
 This Script is designed to continuously monitor and display system information, including
 CPU, memory, network, and disk usage, with an interactive mode for additional actions.
 Here's a detailed overview of its functionality and user interaction:
-Core Functionality
+
+Core Functionality:
 
 • Continuous Monitoring: Automatically updates and displays system information in
 real-time, refreshing every 10 seconds.
@@ -31,7 +32,6 @@ real-time, refreshing every 10 seconds.
 • Interactive Pause: Allows the user to pause the automatic refresh by pressing 'p',
 enabling access to a menu for additional actions.
 
-User Interaction and Options
 • Automatic Refresh: If no input is received within 10 seconds, the script refreshes
 the displayed system information.
 
@@ -45,8 +45,8 @@ CPU information to respective log files.
 can resume the automatic refresh.
 
 • Quitting: The user has the option to exit the monitoring script.
-Behind the Scenes
 
+Behind the Scenes:
 System Information Display: Utilizes functions like display_cpu_info,
 display_memory_usage, get_network_traffic, get_network_info, and get_disk_usage to
 gather and display relevant system metrics.
@@ -63,7 +63,9 @@ script's flow based on those choices.
 How to use:
 1. The script will continuously monitor and display system information, and will refresh
 every 10 seconds
-2. If the user presses “p” it will pause the continues monitoring and the user will get
+
+3. If the user presses “p” it will pause the continues monitoring and the user will get
 additional options.
-3. The user has the option to log specific information by selecting one of the available
+
+5. The user has the option to log specific information by selecting one of the available
 choices, continue with real-time monitoring, or exit.

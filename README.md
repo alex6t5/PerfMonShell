@@ -2,7 +2,7 @@ Implementation of a script that monitors system performance metrics such as CPU 
 memory usage, disk I/O, and network I/O in real-1me and logs the data for analysis.
 
 
-#Make the Script Executable
+# Make the Script Executable
 
 Before you can run the script, you need to make it executable. This is done by setting the execute
 permission on the file. Open a terminal and navigate to the directory where main.sh is saved.

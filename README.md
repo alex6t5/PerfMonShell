@@ -73,6 +73,6 @@ every 10 seconds
 additional options.
 
 5. The user has the option to log specific information by selecting one of the available
-choices, or continue with real-time monitoring, or exit.
+choices, or to continue with real-time monitoring, or exit.
 
 

@@ -7,12 +7,12 @@ memory usage, disk I/O, and network I/O in real-1me and logs the data for analys
 Before you can run the script, you need to make it executable. This is done by setting the execute
 permission on the file. Open a terminal and navigate to the directory where main.sh is saved.
 
-Run the following command:
+# Run the following command:
 "chmod +x main.sh"
 
 This command changes the mode of the file to add (+) execute (x) permissions.
 
-Run the Script:
+# Run the Script:
 
 With the script now executable, you can run it directly from the terminal. the script, use the
 following command:
@@ -21,12 +21,12 @@ following command:
 
 
 
-How does the script work:
+# How does the script work:
 This Script is designed to continuously monitor and display system information, including
 CPU, memory, network, and disk usage, with an interactive mode for additional actions.
 Here's a detailed overview of its functionality and user interaction:
 
-Core Functionality:
+# Core Functionality:
 
 • Continuous Monitoring: Automatically updates and displays system information in
 real-time, refreshing every 10 seconds.
@@ -48,7 +48,7 @@ can resume the automatic refresh.
 
 • Quitting: The user has the option to exit the monitoring script.
 
-Behind the Scenes:
+# Behind the Scenes:
 
 System Information Display: Utilizes functions like display_cpu_info,
 display_memory_usage, get_network_traffic, get_network_info, and get_disk_usage to
@@ -63,7 +63,7 @@ and without a timeout for menu selection, capturing user choices and controlling
 script's flow based on those choices.
 
 
-How to use:
+# How to use:
 1. The script will continuously monitor and display system information, and will refresh
 every 10 seconds
 
@@ -72,3 +72,6 @@ additional options.
 
 5. The user has the option to log specific information by selecting one of the available
 choices, continue with real-time monitoring, or exit.
+
+
+![Showcase_1](https://github.com/alex6t5/PerfMonShell/assets/120783955/dd0d9ec6-bdd2-4db7-90b6-6e0966078f0d)

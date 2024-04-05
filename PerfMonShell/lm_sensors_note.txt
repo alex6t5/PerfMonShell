@@ -1,0 +1,5 @@
+Note on lm_sensors
+
+When operating within a virtual machine (VM), certain functionalities provided by lm_sensors (for monitoring hardware sensors) may not work as they would on physical hardware. This limitation arises due to the nature of virtualization and how VMs interact with the host system's hardware:
+
+1. lm_sensors: This tool is designed to read hardware sensor data directly from physical components like CPUs, GPUs, and motherboards. In a VM, the virtualized environment does not have direct access to these physical sensors. Instead, the VM interacts with a virtualized hardware layer provided by the hypervisor (e.g., VMware, VirtualBox, KVM). As a result, lm_sensors cannot retrieve accurate or any sensor data because the physical sensors are abstracted away by the virtualization layer.
